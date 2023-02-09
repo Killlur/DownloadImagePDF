@@ -35,7 +35,7 @@ m=0
 newdir= dir+'/'+chapter+('_').join((('_').join(x for x in (i.split(':'))) for i in str(datetime.datetime.now())[0:-7].split(' ')))
 os.mkdir(newdir)
 
-print('Figuring out number of pages. Please Wait...')
+print('Figuring out number of pages and Downloading Images. Please Wait...')
 
 for i in range(1,200):
     try:
